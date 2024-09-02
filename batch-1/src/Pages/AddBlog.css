@@ -1,0 +1,63 @@
+/* AddBlog.css */
+
+.add-blog {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .add-blog h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .add-blog form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-blog label {
+    margin-bottom: 10px;
+  }
+  
+  .add-blog input[type="text"], 
+  .add-blog textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .add-blog input[type="file"] {
+    margin-top: 5px;
+  }
+  
+  .add-blog button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .add-blog button:hover {
+    background-color: #0056b3;
+  }
+  
+  .image-preview {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
+  }
+  
